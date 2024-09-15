@@ -3,3 +3,8 @@
 
     `SELECT *FROM club_member_info LIMIT 10;`
 
+      <?php
+        echo "Hello world!";
+    ?>
+    
+
