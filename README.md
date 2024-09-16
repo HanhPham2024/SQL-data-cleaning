@@ -2090,7 +2090,6 @@ CASE
 WHERE age is not null;
 ```
 
-
 <details>
 <summary>Age out of realistic range</summary>
 ```
