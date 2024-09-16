@@ -50,6 +50,8 @@ SELECT * FROM club_member_info;
 
 SELECT UPPER (full_name) FROM club_member_info_cleaned;
 
+<details>
+<summary>TITLE</summary>
 |UPPER (full_name)|
 |-----------------|
 |ADDIE LUSH|
@@ -2073,11 +2075,11 @@ SELECT UPPER (full_name) FROM club_member_info_cleaned;
 |MENDIE ALEXANDRESCU|
 | FEY KLOSS|
 
+</details>
 
-
+```sql
   SELECT TRIM(full_name) FROM club_member_info_cleaned;
-  
-
+```
   
 
 
