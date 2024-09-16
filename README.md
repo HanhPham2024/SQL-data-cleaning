@@ -46,7 +46,7 @@ SELECT * FROM club_member_info;
 
 # Now, let's make steps to clean the dataset.
 
-- Step1: Inconsistent letter case.
+# Step1: Inconsistent letter case.
 
 ```SQL
 UPDATE club_member_info_cleaned 
