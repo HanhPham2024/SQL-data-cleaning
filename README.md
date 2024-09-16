@@ -2092,7 +2092,6 @@ WHERE age is not null;
 
 <details>
 <summary>Age out of realistic range</summary>
-```
 	
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
@@ -4107,7 +4106,6 @@ WHERE age is not null;
 |ALLIX LAWRIE|Late Middle Age|divorced|alawrierq@wsj.com|515-452-7385|162 Orin Way,Des Moines,Iowa|Nurse Practicioner|3/19/2021|
 |ROCKEY GIMBRETT|Early Adulthood|married|rgimbrettrr@google.ca|713-436-2805|77 Dorton Crossing,Houston,Texas|Account Executive|4/25/2015|
 
-```
 </details>
 
 
