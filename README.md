@@ -1,3 +1,3 @@
-    SELECT * FROM ABC LIMIT 10;    
+```SELECT * FROM ABC limit10;```
 
 
