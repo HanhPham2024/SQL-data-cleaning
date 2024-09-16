@@ -55,7 +55,7 @@ WHERE full_name is not null;
 ```
 
 <details>
-<summary>**Inconsistent letter** case</summary>
+<summary>Inconsistent letter case</summary>
 
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
