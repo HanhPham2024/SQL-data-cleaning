@@ -55,8 +55,8 @@ WHERE full_name is not null;
 ```
 
 <details>
-<summary>*Inconsistent letter* case</summary>
-```
+<summary>**Inconsistent letter** case</summary>
+
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
@@ -2071,8 +2071,6 @@ WHERE full_name is not null;
 |ALLIX LAWRIE|50|divorced|alawrierq@wsj.com|515-452-7385|162 Orin Way,Des Moines,Iowa|Nurse Practicioner|3/19/2021|
 |ROCKEY GIMBRETT|26|married|rgimbrettrr@google.ca|713-436-2805|77 Dorton Crossing,Houston,Texas|Account Executive|4/25/2015|
 
-
-```
 </details>
 
 
