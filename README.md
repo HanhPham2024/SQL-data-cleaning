@@ -20,12 +20,12 @@
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 
 
-COPY THE TABLE
+## COPY THE TABLE
 Creat the new table for cleaning
 Let't generate a new table where we can manipulate and restructure the data without modifying the original dataset.
 
 Copy the belowed coding to the console of the table 
-```
+```SQL
 CREATE TABLE club_member_info (
 	full_name VARCHAR(50),
 	age INTEGER,
@@ -39,7 +39,7 @@ CREATE TABLE club_member_info (
 ```
 then copy all values from original to the new table named club_member_info_cleaned
 
-```
+```SQL
 INSERT INTO club_member_info_cleaned
 SELECT * FROM club_member_info;
 ```
