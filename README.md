@@ -4121,6 +4121,7 @@ CASE
 	ELSE 'Late Adulthood'
 	END
 WHERE age is not null;
+```
 
 
 <details>
