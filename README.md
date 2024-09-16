@@ -55,7 +55,7 @@ WHERE full_name is not null;
 ```
 
 <details>
-<summary>TITLE</summary>
+<summary>*Inconsistent letter* case</summary>
 ```
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
@@ -4109,6 +4109,7 @@ WHERE age is not null;
 ```
 </details>
 
+# Step2: Age out of realistic range.
 
 ```SQL
 UPDATE club_member_info_cleaned
@@ -4123,7 +4124,7 @@ WHERE age is not null;
 
 
 <details>
-<summary>TITLE</summary>
+<summary>Age out of realistic range</summary>
 ```
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
