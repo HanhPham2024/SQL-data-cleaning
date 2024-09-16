@@ -4117,6 +4117,7 @@ WHERE full_name LIKE ' %' OR full_name LIKE '% ';
 
 <details>
 <summary>Leading and trailing whitespaces</summary>
+
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |ADDIE LUSH|Early Middle Age|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
