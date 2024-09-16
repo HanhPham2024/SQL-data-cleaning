@@ -4127,6 +4127,7 @@ WHERE age is not null;
 <details>
 <summary>Age out of realistic range</summary>
 ```
+	
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |ADDIE LUSH|Early Middle Age|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
@@ -6155,6 +6156,7 @@ WHERE full_name LIKE ' %' OR full_name LIKE '% ';
 <details>
 <summary>Leading and trailing whitespaces</summary>
 ```
+
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |ADDIE LUSH|Early Middle Age|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
@@ -8167,7 +8169,6 @@ WHERE full_name LIKE ' %' OR full_name LIKE '% ';
 |PHILLIP PIDDICK|Early Middle Age|married|ppiddickrp@hibu.com|512-886-9162|767 Burning Wood Parkway,Austin,Texas|Research Assistant III|10/18/2016|
 |ALLIX LAWRIE|Late Middle Age|divorced|alawrierq@wsj.com|515-452-7385|162 Orin Way,Des Moines,Iowa|Nurse Practicioner|3/19/2021|
 |ROCKEY GIMBRETT|Early Adulthood|married|rgimbrettrr@google.ca|713-436-2805|77 Dorton Crossing,Houston,Texas|Account Executive|4/25/2015|
-
 ```
 </details>
 
