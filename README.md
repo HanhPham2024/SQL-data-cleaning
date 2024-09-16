@@ -19,3 +19,31 @@
 |mendie alexandrescu|46|single|malexandrescu8@state.gov|504-918-4753|34 Delladonna Terrace,New Orleans,Louisiana|Systems Administrator III|3/12/1921|
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 
+
+COPY THE TABLE
+Creat the new table for cleaning
+Let't generate a new table where we can manipulate and restructure the data without modifying the original dataset.
+
+Copy the belowed coding to the console of the table 
+```
+CREATE TABLE club_member_info (
+	full_name VARCHAR(50),
+	age INTEGER,
+	martial_status VARCHAR(50),
+	email VARCHAR(50),
+	phone VARCHAR(50),
+	full_address VARCHAR(50),
+	job_title VARCHAR(50),
+	membership_date VARCHAR(50)
+);
+```
+then copy all values from original to the new table named club_member_info_cleaned
+
+```
+INSERT INTO club_member_info_cleaned
+SELECT * FROM club_member_info;
+```
+
+
+
+
