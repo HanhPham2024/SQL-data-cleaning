@@ -6142,7 +6142,7 @@ WHERE full_name LIKE ' %' OR full_name LIKE '% ';
 
 ## REMOVE DUPLICATES NAME BY BELOWED SYNTAX
 
-'''SQL
+```SQL
 DELETE FROM club_member_info__removeDuplicates 
 WHERE full_name IN (
 SELECT full_name 
@@ -6161,7 +6161,7 @@ GROUP BY full_name, email
 HAVING COUNT(*) > 1
 ) AS sub_table
 );
-
+```
 # AND HERE IS THE RESULT
 
 <details>
